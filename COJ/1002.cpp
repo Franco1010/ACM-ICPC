@@ -9,9 +9,6 @@ int main(){
         cin>>d;
         int v[d-1][d-1];
         string s[d];
-        //for(int i=0;i<d;i++){
-        //	fill(v[i].begin(),v[i].end(),0);
-        //}
         cout<<1<<endl;
         
         for(int i=0;i<d;i++){
