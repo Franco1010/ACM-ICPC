@@ -5,10 +5,6 @@
 //  Created by Franco Ariel Ramirez Villa on 22/01/17.
 //  Copyright © 2017 Franco Ariel Ramirez Villa. All rights reserved.
 //
-/*
- for (int i=0; i<c; i++) {
- printf("%f %f\n",point[i][0], point[i][1]);
- }*/
 
 #include <stdio.h>
 #include <math.h>
@@ -36,7 +32,6 @@ int main(int argc, const char * argv[]) {
                     if (pd<d && pd!=0){
                         d=pd;
                         bo=j;
-                        //printf("%f\n",d);
                     }
                 }
             }
