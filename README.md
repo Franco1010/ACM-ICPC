@@ -5,4 +5,4 @@ A repository along whit a [wiki](https://github.com/Franco1010/ACM-ICPC/wiki) fo
 
 ## Getting started
 
-    1. Read the [wiki](https://github.com/Franco1010/ACM-ICPC/wiki), anyone can edit the wiki
+ 1. Read the [wiki](https://github.com/Franco1010/ACM-ICPC/wiki), anyone can edit the wiki
