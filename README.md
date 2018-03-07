@@ -6,3 +6,9 @@ A repository along whit a wiki for the UdeG students interested in ICPC or simpl
 ## Getting started
   
   1. Read the wiki, anyone can edit the wiki
+# uno
+## dos
+### tres
+#### cuatro
+##### cinco
+###### seis
