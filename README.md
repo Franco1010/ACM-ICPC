@@ -5,6 +5,8 @@ A repository along whit a [wiki](https://github.com/Franco1010/ACM-ICPC/wiki) fo
 
 Post your solutions, libraries, guides, tutorials, or anything you think is helpful.
 
+I publish here my accepted submissions to ACM ICPC training and related sites
+
 ## Getting started
 
  1. Read the [wiki](https://github.com/Franco1010/ACM-ICPC/wiki), anyone can edit the wiki
