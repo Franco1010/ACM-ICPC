@@ -11,3 +11,8 @@ Post your solutions, libraries, guides, tutorials, or anything you think is help
  2. In the folders above you can find solved problems of different online judges (wiki)
  3. Also you can find books and algorithms that we have found useful in contests
  4. And most important, you can help adding to this repository your algorithms, books, tips, or your own solutions for any problem in any judge that is not already in the repository
+
+#### Contributing
+- You will have to fork it and send a pull request.
+- If you have no idea what any of that means, read through the tutorials at http://help.github.com.
+- Bonus points if you explain how you solved the problem
