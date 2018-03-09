@@ -5,7 +5,7 @@ A repository along whit a [wiki](https://github.com/Franco1010/ACM-ICPC/wiki) fo
 
 Post your solutions, libraries, guides, tutorials, or anything you think is helpful.
 
-I publish here my accepted submissions to ACM ICPC training and related sites
+I publish here my accepted submissions to ACM ICPC training and related sites with competitive programming
 
 ## Getting started
 
