@@ -3,6 +3,11 @@
 ## What is this?
 A repository along whit a [wiki](https://github.com/Franco1010/ACM-ICPC/wiki) for the UdeG students interested in ICPC or simply competitive programming
 
+Post your solutions, libraries, guides, tutorials, or anything you think is helpful.
+
 ## Getting started
 
  1. Read the [wiki](https://github.com/Franco1010/ACM-ICPC/wiki), anyone can edit the wiki
+ 2. In the folders above you can find solved problems of different online judges (wiki)
+ 3. Also you can find books and algorithms that we have found useful in contests
+ 4. And most important, you can help adding to this repository your algorithms, books, tips, or your own solutions for any problem in any judge that is not already in the repository
