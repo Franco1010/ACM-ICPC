@@ -19,5 +19,5 @@ I publish here my accepted submissions to ACM ICPC training and related sites wi
 - If you have no idea what any of that means, read through the tutorials at http://help.github.com.
 - Bonus points if you explain how you solved the problem
 
-## ![Resources]()
+## [Resources](https://github.com/Franco1010/ACM-ICPC/tree/master/ACM-ICPC/RPC)
 Here you cand find some books, algorithms, notes, and theory in general that you can use to prepare yourself for the ACM-ICPC. You can have all the print documents that you want in a contest, so you're allowed to print all the material that you found usefull here and use for your training or in the contests, is up to you.
