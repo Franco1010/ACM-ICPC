@@ -7,7 +7,7 @@ Post your solutions, libraries, guides, tutorials, or anything you think is help
 
 I publish here my accepted submissions to ACM ICPC training and related sites with competitive programming
 
-## Getting started
+## [Getting started](https://github.com/Franco1010/ACM-ICPC/wiki/Fundamental-Concepts)
 
  1. Read the [wiki](https://github.com/Franco1010/ACM-ICPC/wiki), anyone can edit the wiki
  2. In the folders above you can find solved problems of different online judges (wiki)
