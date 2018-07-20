@@ -29,7 +29,7 @@ Currently, the judges for which we have solutions are:
 5. ICPC.baylor
 
 You can train by yourself in all the sites mentioned before.
-Also here you can find a lot of information and theory of different resources than you can use freedom
+Also here you can find a lot of information and theory of different resources than you can use freedom. It's important the practice, but also the theory.
 
 ## [--> Resources <--](https://github.com/Franco1010/ACM-ICPC/tree/master/Resources)
 Here you can find some books, algorithms, notes, and theory in general that you can use to prepare yourself for the ACM-ICPC. You can have all the print documents that you want in a contest, so you're allowed to print all the material that you found useful here and use for your training or in the contests, is up to you.
