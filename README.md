@@ -17,7 +17,18 @@ I publish here my accepted submissions to ACM ICPC training and related sites wi
 #### Contributing
 - You will have to fork it and send a pull request.
 - If you have no idea what any of that means, read through the tutorials at http://help.github.com.
-- Bonus points if you explain how you solved the problem
+- Bonus points if you explain how you solved the problem  
+
+# How to use it?
+There are some folders in this repository, most of them are solutions of different judges, the name of the folder is the name of the judge.  
+Currently, the judges for which we have solutions are:
+1. RPC - Mexico and Central America (Red de Programacion Competitiva)
+2. COJ (Caribbean Online Judge)
+3. Codeforces
+4. Code Jam
+5. ICPC.baylor
+
+
 
 ## [Resources](https://github.com/Franco1010/ACM-ICPC/tree/master/Resources)
-Here you cand find some books, algorithms, notes, and theory in general that you can use to prepare yourself for the ACM-ICPC. You can have all the print documents that you want in a contest, so you're allowed to print all the material that you found usefull here and use for your training or in the contests, is up to you.
+Here you can find some books, algorithms, notes, and theory in general that you can use to prepare yourself for the ACM-ICPC. You can have all the print documents that you want in a contest, so you're allowed to print all the material that you found useful here and use for your training or in the contests, is up to you.
