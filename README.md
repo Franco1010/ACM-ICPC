@@ -23,10 +23,15 @@ I publish here my accepted submissions to ACM ICPC training and related sites wi
 There are some folders in this repository, most of them are solutions of different judges, the name of the folder is the name of the judge.  
 Currently, the judges for which we have solutions are:
 '#' | **Our Solutions** | The website |
+---|---|---
 1 | [RPC - Mexico and Central America (Red de Programacion Competitiva)](https://github.com/Franco1010/ACM-ICPC/tree/master/ACM-ICPC/RPC) |  |
+---|---|---
 2 | [COJ (Caribbean Online Judge)](https://github.com/Franco1010/ACM-ICPC/tree/master/coj.uci.cu) |  |
+---|---|---
 3 | [Codeforces]() |  |
+---|---|---
 4 | [Code Jam](https://github.com/Franco1010/ACM-ICPC/tree/master/code%20jam/2018/Qualification%20Round) |  |
+---|---|---
 5 | [ICPC.baylor](https://github.com/Franco1010/ACM-ICPC/tree/master/icpc.baylor) |  |
 
 You can train by yourself in all the sites mentioned before.
