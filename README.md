@@ -25,12 +25,12 @@ Currently, the judges for which we have solutions are:
 
 '#' | ***Our Solutions*** | Website  
 ---|---|---
-1 | [RPC - Mexico and Central America](https://github.com/Franco1010/ACM-ICPC/tree/master/ACM-ICPC/RPC) | [RPC](http://redprogramacioncompetitiva.com)
+1 | [RPC - Mexico and Central America](https://github.com/Franco1010/ACM-ICPC/tree/master/ACM-ICPC/RPC) | [RedProgramacionCompetitiva](http://redprogramacioncompetitiva.com)
 2 | [COJ (Caribbean Online Judge)](https://github.com/Franco1010/ACM-ICPC/tree/master/coj.uci.cu) | [coj.uci.cu](http://coj.uci.cu)
 3 | [Codeforces]() | [codeforces.com](http://codeforces.com)
 4 | [Code Jam](https://github.com/Franco1010/ACM-ICPC/tree/master/code%20jam/2018/Qualification%20Round) | [codejam.withgoogle.com](https://codejam.withgoogle.com/codejam/)
 5 | [ICPC.baylor](https://github.com/Franco1010/ACM-ICPC/tree/master/icpc.baylor) | []()
-6 | [UVA]() | [uva.onlinejudge.org](https://uva.onlinejudge.org)
+6 | [UVa]() | [uva.onlinejudge.org](https://uva.onlinejudge.org)
 
 
 You can train by yourself in all the sites mentioned before.
