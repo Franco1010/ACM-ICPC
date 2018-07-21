@@ -16,7 +16,7 @@ I publish here my accepted submissions to ACM ICPC training and related sites wi
 
 #### Contributing
 - You will have to fork it and send a pull request.
-- If you have no idea what any of that means, read through the tutorials at http://help.github.com.
+- If you have no idea what any of that means, read through the tutorials at [http://help.github.com](http://help.github.com).
 - Bonus points if you explain how you solved the problem  
 
 # How to use it?
@@ -26,10 +26,10 @@ Currently, the judges for which we have solutions are:
 '#' | ***Our Solutions*** | Website  
 ---|---|---
 1 | [RPC - Mexico and Central America](https://github.com/Franco1010/ACM-ICPC/tree/master/ACM-ICPC/RPC) | [RedProgramacionCompetitiva](http://redprogramacioncompetitiva.com)
-2 | [COJ (Caribbean Online Judge)](https://github.com/Franco1010/ACM-ICPC/tree/master/coj.uci.cu) | [coj.uci.cu](http://coj.uci.cu)
+2 | [COJ (Caribbean Online Judge)](https://github.com/Franco1010/ACM-ICPC/tree/master/COJ) | [coj.uci.cu](http://coj.uci.cu)
 3 | [Codeforces]() | [codeforces.com](http://codeforces.com)
 4 | [Code Jam](https://github.com/Franco1010/ACM-ICPC/tree/master/code%20jam/2018/Qualification%20Round) | [codejam.withgoogle.com](https://codejam.withgoogle.com/codejam/)
-5 | [ICPC Live Archive](https://github.com/Franco1010/ACM-ICPC/tree/master/icpc.baylor) | [icpcarchive.ecs.baylor.edu](https://icpcarchive.ecs.baylor.edu/index.php)
+5 | [ICPC Live Archive](https://github.com/Franco1010/ACM-ICPC/tree/master/ICPC%20Live%20Archive) | [icpcarchive.ecs.baylor.edu](https://icpcarchive.ecs.baylor.edu/index.php)
 6 | [UVa]() | [uva.onlinejudge.org](https://uva.onlinejudge.org)
 
 
