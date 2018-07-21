@@ -16,7 +16,7 @@ I publish here my accepted submissions to ACM ICPC training and related sites wi
 
 #### Contributing
 - You will have to fork it and send a pull request.
-- If you have no idea what any of that means, read through the tutorials at http://help.github.com.
+- If you have no idea what any of that means, read through the tutorials at [http://help.github.com](http://help.github.com).
 - Bonus points if you explain how you solved the problem  
 
 # How to use it?
