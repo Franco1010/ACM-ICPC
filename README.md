@@ -21,15 +21,21 @@ I publish here my accepted submissions to ACM ICPC training and related sites wi
 
 # How to use it?
 There are some folders in this repository, most of them are solutions of different judges, the name of the folder is the name of the judge.  
-Currently, the judges for which we have solutions are:
-1. [RPC - Mexico and Central America (Red de Programacion Competitiva)](https://github.com/Franco1010/ACM-ICPC/tree/master/ACM-ICPC/RPC)
-2. [COJ (Caribbean Online Judge)](https://github.com/Franco1010/ACM-ICPC/tree/master/coj.uci.cu)
-3. [Codeforces]()
-4. [Code Jam](https://github.com/Franco1010/ACM-ICPC/tree/master/code%20jam/2018/Qualification%20Round)
-5. [ICPC.baylor](https://github.com/Franco1010/ACM-ICPC/tree/master/icpc.baylor)
+Currently, the judges for which we have solutions are:  
 
-You can train by yourself in all the sites mentioned before.
-Also here you can find a lot of information and theory of different resources that you can use freedom. It's important the practice, but also the theory.
+'#' | ***Our Solutions*** | Website  
+---|---|---
+1 | [RPC - Mexico and Central America](https://github.com/Franco1010/ACM-ICPC/tree/master/ACM-ICPC/RPC) | [RedProgramacionCompetitiva](http://redprogramacioncompetitiva.com)
+2 | [COJ (Caribbean Online Judge)](https://github.com/Franco1010/ACM-ICPC/tree/master/coj.uci.cu) | [coj.uci.cu](http://coj.uci.cu)
+3 | [Codeforces]() | [codeforces.com](http://codeforces.com)
+4 | [Code Jam](https://github.com/Franco1010/ACM-ICPC/tree/master/code%20jam/2018/Qualification%20Round) | [codejam.withgoogle.com](https://codejam.withgoogle.com/codejam/)
+5 | [ICPC Live Archive](https://github.com/Franco1010/ACM-ICPC/tree/master/icpc.baylor) | [icpcarchive.ecs.baylor.edu](https://icpcarchive.ecs.baylor.edu/index.php)
+6 | [UVa]() | [uva.onlinejudge.org](https://uva.onlinejudge.org)
+
+
+You can train by yourself in all the sites mentioned before.  
+Also here you can find a lot of information and theory of different resources that you can use freedom.  
+It's important the practice, but also the theory.
 
 ## [--> Resources <--](https://github.com/Franco1010/ACM-ICPC/tree/master/Resources)
 Here you can find some books, algorithms, notes, and theory in general that you can use to prepare yourself for the ACM-ICPC. You can have all the print documents that you want in a contest, so you're allowed to print all the material that you found useful here and use for your training or in the contests, is up to you.
