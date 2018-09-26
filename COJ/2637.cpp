@@ -31,33 +31,6 @@ typedef vector<int> vi;
 typedef vector<ii> vii;
 
 
-template<typename T>
-class fenwick{
-public:
-  vector<T> fenw;
-  int n;
-  fenwick(int _n){
-    n = _n;
-    fenw.resize(n + 1, {});
-  }
-
-  void update(int x, T val){
-    while( x <= n ){
-      fenw[x] += val;
-      x += x & -x;
-    }
-  }
-
-  T query(int x){
-    T val = {};
-    while( x > 0 ){
-      val += fenw[x];
-      x -= x & -x;
-    }
-  }
-};
-
-
 int main() { _
   ll t,n,q,aux,l,r;
   cin>>t;
