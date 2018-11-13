@@ -27,10 +27,11 @@ Currently, the judges for which we have solutions are:
 ---|---|---
 1 | [RPC - Mexico and Central America](https://github.com/Franco1010/ACM-ICPC/tree/master/ACM-ICPC/RPC) | [RedProgramacionCompetitiva](http://redprogramacioncompetitiva.com)
 2 | [COJ (Caribbean Online Judge)](https://github.com/Franco1010/ACM-ICPC/tree/master/COJ) | [coj.uci.cu](http://coj.uci.cu)
-3 | [Codeforces](https://github.com/Franco1010/ACM-ICPC/tree/master/Codeforces) | [codeforces.com](http://codeforces.com)
-4 | [Code Jam](https://github.com/Franco1010/ACM-ICPC/tree/master/code%20jam/2018/Qualification%20Round) | [codejam.withgoogle.com](https://codejam.withgoogle.com/codejam/)
-5 | [ICPC Live Archive](https://github.com/Franco1010/ACM-ICPC/tree/master/ICPC%20Live%20Archive) | [icpcarchive.ecs.baylor.edu](https://icpcarchive.ecs.baylor.edu/index.php)
-6 | [UVa](https://github.com/Franco1010/ACM-ICPC/tree/master/UVa) | [uva.onlinejudge.org](https://uva.onlinejudge.org)
+3 | [Codeforces](https://github.com/Franco1010/ACM-ICPC/tree/master/Codeforces) | [codeforces.com](https://www.spoj.com)
+4 | [SPOJ (Sphere Online Judge)](https://github.com/Franco1010/ACM-ICPC/tree/master/SPOJ) | [codeforces.com](http://codeforces.com)
+5 | [Code Jam](https://github.com/Franco1010/ACM-ICPC/tree/master/code%20jam/2018/Qualification%20Round) | [codejam.withgoogle.com](https://codejam.withgoogle.com/codejam/)
+6 | [ICPC Live Archive](https://github.com/Franco1010/ACM-ICPC/tree/master/ICPC%20Live%20Archive) | [icpcarchive.ecs.baylor.edu](https://icpcarchive.ecs.baylor.edu/index.php)
+7 | [UVa](https://github.com/Franco1010/ACM-ICPC/tree/master/UVa) | [uva.onlinejudge.org](https://uva.onlinejudge.org)
 
 
 You can train by yourself in all the sites mentioned before.  
