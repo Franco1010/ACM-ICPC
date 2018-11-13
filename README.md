@@ -25,7 +25,7 @@ Currently, the judges for which we have solutions are:
 
 '#' | ***Our Solutions*** | Website  
 ---|---|---
-1 | [RPC - Mexico and Central America](/RPC) | [RedProgramacionCompetitiva](http://redprogramacioncompetitiva.com)
+1 | [RPC - Mexico and Central America](/ACM-ICPC/RPC) | [RedProgramacionCompetitiva](http://redprogramacioncompetitiva.com)
 2 | [COJ (Caribbean Online Judge)](https://github.com/Franco1010/ACM-ICPC/tree/master/COJ) | [coj.uci.cu](http://coj.uci.cu)
 3 | [Codeforces](https://github.com/Franco1010/ACM-ICPC/tree/master/Codeforces) | [codeforces.com](https://www.spoj.com)
 4 | [SPOJ (Sphere Online Judge)](https://github.com/Franco1010/ACM-ICPC/tree/master/SPOJ) | [codeforces.com](http://codeforces.com)
