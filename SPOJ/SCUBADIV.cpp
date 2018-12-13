@@ -1,4 +1,3 @@
-// touch {a..l}.in; tee {a..l}.cpp < template.cpp
 #include <bits/stdc++.h>
 #define For(i, a, b, c) for(int i = a; i <= b; i += c)
 #define Rof(i, a, b, c) for(int i = a; i >= b; i += c)
