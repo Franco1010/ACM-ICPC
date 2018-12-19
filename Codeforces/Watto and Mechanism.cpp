@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/514/problem/C
 #include <bits/stdc++.h>
 #define For(i, a, b, c) for(int i = a; i <= b; i += c)
 #define Rof(i, a, b, c) for(int i = a; i >= b; i += c)
