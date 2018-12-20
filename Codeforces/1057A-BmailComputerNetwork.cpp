@@ -1,14 +1,12 @@
-//touch {a..m}.in; tee {a..m}.cpp < template.cpp
-//#include </Users/francoarielramirezvilla/stdc++.h>
+//https://codeforces.com/contest/1057/problem/A
 #include <bits/stdc++.h>
 using namespace std;
 #define PI 3.14159265358979323846
 #define EPS 1e-6
-#define INF 1000000000000000LL
+#define INF 1e5+1
 #define MOD 1000000007
 
 #define _ ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0), cout.precision(15);
-#define fori(i,a,b,inc) for(int i=(a); i<(b); i += (inc))
 #define forr(i,a,b) for(int i=(a); i<(b); i++)
 #define forn(i,n) forr(i,0,n)
 #define sz(c) ((int)c.size())
@@ -24,8 +22,8 @@ using namespace std;
 #define toIntA(c) (c - 'A')
 #define toInta(c) (c - 'a')
 #define toInt0(c) (c - '0')
-#define toCharA(i) (char)(i + 'a')
-#define toChara(i) (char)(i + 'A')
+#define toCharA(i) (char)(i + 'A')
+#define toChara(i) (char)(i + 'a')
 #define toChar0(i) (char)(i + '0')
 
 typedef long long ll;
@@ -33,17 +31,23 @@ typedef pair<int, int> ii;
 typedef vector<int> vi;
 typedef vector<ii> vii;
 
+const int tam = 1e6;
+int nums[tam];
 int main() { _
-  ll n,m,k,aux,a,b,con;
-  cin>>n>>m>>k;
-  con=0;
-  aux=0;
-  forn(i,n){
-    cin>>a>>b;
-    con+=(a-aux)/k;
-    aux=(a+b);
+  ll n;
+  stack<int>s;
+  cin>>n;
+  forr(i,2,n+2){
+    cin>>nums[i];
   }
-  con+=(m-aux)/k;
-  cout<<con<<ENDL;
+  ll aux=n;
+  while(aux>=1){
+    s.push(aux);
+    aux = nums[aux];
+  }
+  while(!s.empty()){
+    cout<<s.top()<<' ';
+    s.pop();
+  }cout<<ENDL;
   return 0;
 }

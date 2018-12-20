@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/1015/problem/A
 #include <bits/stdc++.h>
 using namespace std;
 #define forr(i,a,b) for(int i=(a); i<(b); i++)
@@ -11,33 +12,27 @@ using namespace std;
 typedef long long ll;
 typedef pair<int,int> ii;
 #define dforn(i,n) for(int i=n-1; i>=0; i--)
-#define dprint(v) cout << #v"=" << v << endl //;)
+#define dprint(v) cout << #v"=" << v << endl
 #define ENDL '\n'
 
-ll n,k,res;
-string s;
-void recur(int posa, ll w, int aux){
-  if(aux==k){
-    //cout<<endl<<aux<<' '<<w<<endl;
-    res=min(res,w);
-    return;
-  }
-  forr(i,posa+1,n){
-    if(s[i]>s[posa]+1){
-      //cout<<s[i]<<' ';
-      recur(i,w+(s[i]-'a')+1,aux+1);
-    }
-  }
-}
-
+bool tramo[101];
 int main() {
     ios::sync_with_stdio(0);
-    cin>>n>>k;
-    cin>>s;
-    sort(s.begin(),s.end());
-    res=2600;
-    forn(i,n)recur(i,(s[i]-'a')+1,1);
-    if(res==2600)cout<<-1<<ENDL;
-    else cout<<res<<ENDL;
+    ll n,m,l,r,res=0,b,pos,tot=0;
+    cin>>n>>m;
+    forn(i,n){
+      cin>>l>>r;
+      forr(j,l-1,r)tramo[j]=true;
+    }
+    vector<int>v;
+    forn(i,m){
+      if(!tramo[i]){
+        ++tot;
+        v.pb(i+1);
+      }
+    }
+    cout<<tot<<ENDL;
+    for(int i:v)cout<<i<<' ';
+    cout<<ENDL;
     return 0;
 }

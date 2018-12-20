@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/1008/problem/A
 #include <bits/stdc++.h>
 using namespace std;
 #define forr(i,a,b) for(int i=(a); i<(b); i++)
@@ -20,21 +21,20 @@ bool isv(char x){
 }
 int main() {
     ios::sync_with_stdio(0);
-    ll c,a,b,act;
-    cin>>c;
-    cin>>a>>b;
-    act=max(a,b);
-    --c;
-    while(c--){
-      cin>>a>>b;
-      if(a<=act&&b<=act)act=max(a,b);
-      else if(a<=act) act=a;
-      else if(b<=act) act=b;
-      else {
-        cout<<"NO"<<ENDL;
-        return 0;
+    string s;
+    cin>>s;
+    ll l=sz(s);
+    forr(i,0,l-1){
+      if(!isv(s[i])){
+        if(s[i]=='n')continue;
+        if(isv(s[i+1])) i++;
+        else {
+          cout<<"NO"<<ENDL;
+          return 0;
+        }
       }
     }
-    cout<<"YES"<<ENDL;
+    if(s[l-1]=='n' || isv(s[l-1])) cout<<"YES"<<ENDL;
+    else cout<<"NO"<<ENDL;
     return 0;
 }

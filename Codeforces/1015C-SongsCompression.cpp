@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/1015/problem/C
 #include <bits/stdc++.h>
 using namespace std;
 #define forr(i,a,b) for(int i=(a); i<(b); i++)
@@ -14,18 +15,34 @@ typedef pair<int,int> ii;
 #define dprint(v) cout << #v"=" << v << endl //;)
 #define ENDL '\n'
 
+struct tres{
+  ll a,b,d;
+  bool operator<(const tres &t) const
+  {
+      return d < t.d;
+  }
+};
 int main() {
     ios::sync_with_stdio(0);
-    string a,b;
-    ll t,c=0;
-    cin>>a>>b;
-    t=max(sz(a),sz(b));
-    reverse(a.begin(),a.end());
-    reverse(b.begin(),b.end());
-    forn(i,t){
-      if(a[i]==b[i])c++;
-      else break;
+    ll n,m,s,r,sum=0,pos,res=0;
+    tres aux;
+    cin>>n>>m;
+    vector<tres>v(n);
+    forn(i,n){
+      cin>>aux.a>>aux.b;
+      aux.d=abs(aux.a-aux.b);
+      v[i]=aux;
+      sum+=aux.a;
     }
-    cout<<sz(a)+sz(b)-(c)*2<<ENDL;
+    sort(v.rbegin(),v.rend());
+    pos=0;
+    while(sum>m && pos<n){
+      if(v[pos].a>v[pos].b){
+        sum-=v[pos++].d;
+        ++res;
+      }
+    }
+    if(sum>m)cout<<-1<<ENDL;
+    else cout<<res<<ENDL;
     return 0;
 }

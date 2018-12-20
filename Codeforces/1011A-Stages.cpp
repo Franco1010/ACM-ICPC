@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/1011/problem/A
 #include <bits/stdc++.h>
 using namespace std;
 #define forr(i,a,b) for(int i=(a); i<(b); i++)
@@ -14,26 +15,30 @@ typedef pair<int,int> ii;
 #define dprint(v) cout << #v"=" << v << endl //;)
 #define ENDL '\n'
 
-bool isv(char x){
-  if(x=='a'||x=='e'||x=='i'||x=='o'||x=='u')return true;
-  return false;
+ll n,k,res;
+string s;
+void recur(int posa, ll w, int aux){
+  if(aux==k){
+    //cout<<endl<<aux<<' '<<w<<endl;
+    res=min(res,w);
+    return;
+  }
+  forr(i,posa+1,n){
+    if(s[i]>s[posa]+1){
+      //cout<<s[i]<<' ';
+      recur(i,w+(s[i]-'a')+1,aux+1);
+    }
+  }
 }
+
 int main() {
     ios::sync_with_stdio(0);
-    string s;
+    cin>>n>>k;
     cin>>s;
-    ll l=sz(s);
-    forr(i,0,l-1){
-      if(!isv(s[i])){
-        if(s[i]=='n')continue;
-        if(isv(s[i+1])) i++;
-        else {
-          cout<<"NO"<<ENDL;
-          return 0;
-        }
-      }
-    }
-    if(s[l-1]=='n' || isv(s[l-1])) cout<<"YES"<<ENDL;
-    else cout<<"NO"<<ENDL;
+    sort(s.begin(),s.end());
+    res=2600;
+    forn(i,n)recur(i,(s[i]-'a')+1,1);
+    if(res==2600)cout<<-1<<ENDL;
+    else cout<<res<<ENDL;
     return 0;
 }

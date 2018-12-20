@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/1008/problem/B
 #include <bits/stdc++.h>
 using namespace std;
 #define forr(i,a,b) for(int i=(a); i<(b); i++)
@@ -14,26 +15,27 @@ typedef pair<int,int> ii;
 #define dprint(v) cout << #v"=" << v << endl //;)
 #define ENDL '\n'
 
-bool tramo[101];
+bool isv(char x){
+  if(x=='a'||x=='e'||x=='i'||x=='o'||x=='u')return true;
+  return false;
+}
 int main() {
     ios::sync_with_stdio(0);
-    ll n,m,l,r,res=0,b,pos,tot=0;
-    cin>>n>>m;
-    forn(i,n){
-      cin>>l>>r;
-      forr(j,l-1,r)tramo[j]=true;
-      //if(l==r)--tot;
-      //else tot-=(r-l);
-    }
-    vector<int>v;
-    forn(i,m){
-      if(!tramo[i]){
-        ++tot;
-        v.pb(i+1);
+    ll c,a,b,act;
+    cin>>c;
+    cin>>a>>b;
+    act=max(a,b);
+    --c;
+    while(c--){
+      cin>>a>>b;
+      if(a<=act&&b<=act)act=max(a,b);
+      else if(a<=act) act=a;
+      else if(b<=act) act=b;
+      else {
+        cout<<"NO"<<ENDL;
+        return 0;
       }
     }
-    cout<<tot<<ENDL;
-    for(int i:v)cout<<i<<' ';
-    cout<<ENDL;
+    cout<<"YES"<<ENDL;
     return 0;
 }

@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/1023/problem/C
 #include <bits/stdc++.h>
 using namespace std;
 #define forr(i,a,b) for(int i=(a); i<(b); i++)
@@ -11,26 +12,33 @@ using namespace std;
 typedef long long ll;
 typedef pair<int,int> ii;
 #define dforn(i,n) for(int i=n-1; i>=0; i--)
-#define dprint(v) cout << #v"=" << v << endl
+#define dprint(v) cout << #v"=" << v << endl //;)
 #define ENDL '\n'
 
 int main() {
     ios::sync_with_stdio(0);
-    ll c,res=21;
-    cin>>c;
-    vector<ll>v(c),dp1(c+1),dp2(c+1);
-    forn(i,c)cin>>v[i];
-    dp1[0]=dp2[c]=0;
-    forn(i,c){
-      dp1[i+1]=dp1[i]+v[i];
+    ll n,m,p=0,q=0,aux;
+    string s="",res="";
+    char x;
+    vector<ll>a,b;
+    cin>>n>>m;
+    forn(i,n){
+      cin>>x;
+      if(x=='(')a.pb(i);
+      else b.pb(i);
+      s+=x;
     }
-    dforn(i,c){
-      dp2[i]=dp2[i+1]+v[i];
+    //cout<<s<<ENDL;
+    aux=n-m;
+    while(aux--,aux>=0){
+      s[a[p++]]='*';
+      aux--;
+      s[b[q++]]='*';
     }
-    reverse(dp2.begin(),dp2.end());
-    forn(i,c){
-      if(binary_search(dp2.begin(),dp2.end()-i,dp1[i])){
-        res=dp1[i];
+    //cout<<s<<endl;
+    forn(i,n){
+      if(s[i]!='*'){
+        res+=s[i];
       }
     }
     cout<<res<<ENDL;
