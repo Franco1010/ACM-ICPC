@@ -23,7 +23,7 @@ typedef pair<int, int> ii;
 
 const int N = 1005;
 
-vector<int> g[N], rg[N];
+vector<int> g[N];
 vector<int> topological;
 bool vis[N];
 int n, m;
@@ -49,17 +49,19 @@ void dfs2(int u){
 
 int main(){ _
   while( cin >> n >> m ){
-    Forn(u, n + 1){
-      g[u] = rg[u] = vector<int>();
+    n++;
+    Forn(u, n){
+      g[u] = vector<int>();
     }
     Forn(id, m){
       int u, v;
       cin >> u >> v;
-      g[u].pb(v);
-      rg[v].pb(u);
+      if( v != 0 ){
+        g[u].pb(v);
+      }
     }
     topological = vector<int>();
-    fill_n(vis, n + 1, false);
+    fill_n(vis, n, false);
     Forn(u, n){
       if( !vis[u] ){
         dfs1(u);
@@ -67,8 +69,8 @@ int main(){ _
     }
     reverse(all(topological));
     int components = 0;
-    fill_n(vis, n + 1, false);
-    Forn(u, n){
+    fill_n(vis, n, false);
+    for(int u: topological){
       if( !vis[u] ){
         dfs2(u);
         components++;
