@@ -29,11 +29,11 @@ int lowlink[N];
 vector< vector<int> > scc;
 bool vis[N];
 stack<int> slew;
+int timer;
 int n, m;
 lli cost;
 
 void tarjan_dfs(int u, int pr = -1){
-	static int timer = 0;
 	lowlink[u] = tin[u] = ++timer;
 	vis[u] = true;
 	slew.push(u);
@@ -64,6 +64,7 @@ void tarjan_dfs(int u, int pr = -1){
 }
 
 void tarjan(){
+  timer = 0;
 	For1(u, n){
 		tin[u] = -1;
 		lowlink[u] = -1;
