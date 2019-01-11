@@ -28,7 +28,6 @@ vector<int> rg[N];
 bool vis[N];
 vector<int> topological;
 vector< vector<int> > components;
-vector<int> component;
 int n, m;
 
 void dfs1(int u){
@@ -41,12 +40,12 @@ void dfs1(int u){
   topological.pb(u);
 }
 
-void dfs2(int u){
+void dfs2(int u, vector<int> &component){
   vis[u] = true;
   component.pb(u);
   for(int v: rg[u]){
     if( !vis[v] ){
-      dfs2(v);
+      dfs2(v, component);
     }
   }
 }
@@ -79,8 +78,8 @@ int main(){ _
     components = vector< vector<int> >();
     for(int u: topological){
       if( !vis[u] ){
-        component = vector<int>();
-        dfs2(u);
+        vector<int> component;
+        dfs2(u, component);
         components.pb(component);
       }
     }
