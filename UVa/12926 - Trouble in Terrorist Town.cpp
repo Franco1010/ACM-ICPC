@@ -89,7 +89,7 @@ int main(){ _
     }
     cin >> cost;
     tarjan();
-    cout << 1ll * 1ll * size(scc) * cost << '\n';
+    cout << 1ll * size(scc) * cost << '\n';
   }
   return 0;
 }
